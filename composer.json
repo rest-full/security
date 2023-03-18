@@ -1,0 +1,28 @@
+{
+    "name": "rest-full/security",
+    "description": "Security on your system works well.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src",
+            "App\\": "example"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/authentication": "1.*",
+        "rest-full/http": "1.*",
+        "rest-full/container": "1.*",
+        "rest-full/error": "1.*",
+        "firebase/php-jwt": "v5.*"
+    }
+}
